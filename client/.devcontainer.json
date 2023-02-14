@@ -1,0 +1,12 @@
+{
+    "name": "sql-in-7-days-client",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "ms-dotnettools.csharp"
+    ],
+    "runArgs": [
+        "--network=sql-in-7-days",
+    ],
+}
